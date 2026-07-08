@@ -9,6 +9,20 @@ Nitro Sloth Games operates as a branded studio venture under parent holding enti
 
 ---
 
+## Tech Stack
+
+The site is built with a highly optimized, dependency-free static stack for fast load times and maximum compatibility:
+* **Markup**: Semantic HTML5 for structuring content and optimizing SEO/accessibility rankings.
+* **Styles**: Vanilla CSS3 using custom properties (CSS variables), CSS grid/flexbox layouts, responsive media queries, and keyframe animations.
+* **Scripts**: Modern Vanilla JavaScript (ES6+) for DOM manipulation, client-side contact validation, and accordion components.
+* **Background Canvas**: Native HTML5 Canvas API used to render drift and interactive mouse push physics for background particles.
+* **APIs & CDN**: 
+  * **Google Fonts API** (importing the `Space Grotesk` and `Inter` font families).
+  * **Intersection Observer API** for scroll-reveal entrance animations.
+  * **AdMob SDK** and **Firebase SDK** integrations (maintained via root tracking parameters).
+
+---
+
 ## Website Structure
 
 The website is designed with a premium, responsive dark cosmic aesthetic using Vanilla HTML, Custom CSS variables, and native JavaScript. It is fully search engine optimized (SEO), lightweight, and accessible.
