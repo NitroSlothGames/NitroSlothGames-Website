@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitro Sloth Games - Building Games Players Love</title>
+  <meta name="description" content="Nitro Sloth Games is an independent game studio creating polished mobile, narrative, educational, and B2B interactive experiences. Sloth energy, Nitro speed.">
+  <meta name="keywords" content="Nitro Sloth Games, Game Studio, Hypercasual Games, Crayon Sorter, Mobile Games, Indie Developer">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating background canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="main-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link" id="nav-logo">
+        <img src="assets/logo.png" alt="Nitro Sloth Games Logo">
+        <span>NITRO <span class="logo-highlight">SLOTH</span></span>
+      </a>
+      <button class="mobile-toggle" id="menu-toggle-btn" aria-label="Toggle Menu">☰</button>
+      <nav>
+        <ul class="nav-menu" id="nav-menu-list">
+          <li class="nav-item active"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="games.html">Games</a></li>
+          <li class="nav-item"><a href="studio.html">Studio</a></li>
+          <li class="nav-item"><a href="b2b.html">B2B</a></li>
+          <li class="nav-item"><a href="blog.html">Blog</a></li>
+          <li class="nav-item"><a href="press.html">Press</a></li>
+          <li class="nav-item"><a href="careers.html">Careers</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section hero-section" id="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-text scroll-reveal">
+        <p class="hero-tag">Sloth Energy • Nitro Speed</p>
+        <h1 class="hero-title">Building games <br><span>players love.</span></h1>
+        <p class="hero-subtitle">
+          From hypercasual hits to story-driven adventures, educational experiences, and interactive products, Nitro Sloth Games creates memorable experiences built with care. We combine thoughtful planning with lightning-fast execution.
+        </p>
+        <div class="hero-ctas">
+          <a href="games.html" class="btn btn-primary" id="hero-primary-cta">Explore Games</a>
+          <a href="studio.html" class="btn btn-secondary" id="hero-secondary-cta">Meet the Studio</a>
+        </div>
+      </div>
+      <div class="hero-graphic scroll-reveal">
+        <img src="assets/banner.png" alt="Nitro Sloth Games Mascot & Branding Banner">
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Games Section -->
+  <section class="section" id="featured-games">
+    <div class="container">
+      <h2 class="scroll-reveal">Featured Game</h2>
+      
+      <div class="glass-panel game-featured-grid scroll-reveal">
+        <div class="game-gallery">
+          <img src="assets/crayon_sorter_featured.png" alt="Crayon Sorter Cover Art" class="featured-image">
+          <img src="assets/crayon_sorter_screenshot1.png" alt="Crayon Sorter Gameplay Screenshot 1">
+          <img src="assets/crayon_sorter_screenshot2.png" alt="Crayon Sorter Gameplay Screenshot 2">
+        </div>
+        <div class="game-details">
+          <span class="badge">Puzzle / Arcade</span>
+          <h3>Crayon Sorter</h3>
+          <p>
+            Organize colorful crayons, solve satisfying sorting puzzles, and master increasingly tricky, handcrafted levels. Perfect for short, relaxing gameplay sessions that keep your mind sharp.
+          </p>
+          <ul class="game-features">
+            <li>100+ handcrafted color-matching levels</li>
+            <li>Calming soundtrack & satisfying visual feedback</li>
+            <li>Quick play sessions designed for instant replayability</li>
+          </ul>
+          <div class="store-badges">
+            <a href="https://play.google.com" target="_blank" class="store-badge" id="crayon-sorter-android-download">
+              <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Studio Overview Section -->
+  <section class="section" id="studio-overview">
+    <div class="container">
+      <h2 class="scroll-reveal">Studio Overview</h2>
+      
+      <div class="glass-panel scroll-reveal" style="padding: 3rem; margin-top: 3rem; text-align: center;">
+        <h3>Building for the Long Run</h3>
+        <p style="max-width: 800px; margin: 1.5rem auto 0; line-height: 1.8;">
+          Nitro Sloth Games is an independent game studio founded to build a lasting portfolio of interactive experiences rather than relying on a single successful title. We make games with rich mechanics, polish, and player-first accessibility, operating under our guiding tagline: <strong>"Sloth energy, Nitro speed."</strong> We combine thoughtful planning with agile execution to bring players memorable games.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest News Section -->
+  <section class="section" id="latest-news">
+    <div class="container">
+      <h2 class="scroll-reveal">Latest News</h2>
+      
+      <div class="news-grid">
+        <!-- News Card 1 -->
+        <div class="glass-panel news-card scroll-reveal">
+          <div class="news-img" style="background-image: url('assets/crayon_sorter_featured.png');"></div>
+          <div class="news-content">
+            <span class="news-meta">July 8, 2026 • Game Release</span>
+            <h4>Crayon Sorter Launching Globally on Google Play</h4>
+            <p>We are excited to announce our first puzzle game, Crayon Sorter, is now available to download. Sort your way through 100+ challenges today!</p>
+            <a href="blog.html" class="news-link" id="news-1-link">Read Full Devlog →</a>
+          </div>
+        </div>
+
+        <!-- News Card 2 -->
+        <div class="glass-panel news-card scroll-reveal">
+          <div class="news-img" style="background-image: url('assets/logo.png'); background-size: 50% auto; background-repeat: no-repeat;"></div>
+          <div class="news-content">
+            <span class="news-meta">June 15, 2026 • Partnership</span>
+            <h4>Nitro Sloth Games Partners with Klyph OPC</h4>
+            <p>Establishing our legal foundation under Klyph OPC allows us to secure IP rights and gear up for long-term production and distribution.</p>
+            <a href="blog.html" class="news-link" id="news-2-link">Read Announcement →</a>
+          </div>
+        </div>
+
+        <!-- News Card 3 -->
+        <div class="glass-panel news-card scroll-reveal">
+          <div class="news-img" style="background-image: url('assets/banner.png');"></div>
+          <div class="news-content">
+            <span class="news-meta">May 2, 2026 • Development</span>
+            <h4>Behind the Tagline: Sloth Energy, Nitro Speed</h4>
+            <p>Our co-founders outline the internal philosophy guiding how we schedule development, conduct QA, and publish games without burning out.</p>
+            <a href="blog.html" class="news-link" id="news-3-link">Read Philosophy →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community & Newsletter CTA Section -->
+  <section class="section" id="community" style="background: rgba(255, 122, 0, 0.02); border-top: 1px solid rgba(255, 122, 0, 0.05); border-bottom: 1px solid rgba(255, 122, 0, 0.05);">
+    <div class="container" style="text-align: center; max-width: 600px;">
+      <h2 class="scroll-reveal" style="font-size: 2.2rem;">Join Our Community</h2>
+      <p class="scroll-reveal" style="margin: 1rem 0 2rem;">
+        Subscribe to our newsletter to receive development logs, sneak peeks at upcoming narrative titles, and first-access beta invitations.
+      </p>
+      <form class="glass-panel contact-form scroll-reveal" style="padding: 1.5rem; display: flex; flex-direction: row; gap: 10px; flex-wrap: wrap; align-items: center;" id="newsletter-form">
+        <input type="email" placeholder="Your Email Address" class="form-input" style="flex-grow: 1; padding: 0.75rem 1rem;" id="newsletter-email" required>
+        <button type="submit" class="btn btn-primary" style="padding: 0.75rem 1.5rem;" id="newsletter-submit-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-title">NITRO <span>SLOTH</span></div>
+        <p>Independent mobile game studio focused on polished mechanics, rich narrative, and unforgettable player experiences. Sloth energy, Nitro speed.</p>
+        <p>Email: <a href="mailto:nitrosloth.hq@gmail.com">nitrosloth.hq@gmail.com</a></p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Our Games</a></li>
+          <li><a href="studio.html">Studio & Philosophy</a></li>
+          <li><a href="b2b.html">B2B Interactive</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="blog.html">Devlogs & News</a></li>
+          <li><a href="press.html">Press Kit</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="support.html">Help & FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="app-ads.txt" target="_blank">app-ads.txt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Nitro Sloth Games. All rights reserved.</p>
+      <p>Nitro Sloth Games is a branded venture of <span class="klyph-tag">Klyph OPC</span>. Chennai, Tamil Nadu, India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

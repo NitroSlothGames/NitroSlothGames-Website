@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Games - Nitro Sloth Games</title>
+  <meta name="description" content="Explore our released puzzle games and preview upcoming narrative, educational, and arcade titles currently in production at Nitro Sloth Games.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo.png" alt="Nitro Sloth Games Logo">
+        <span>NITRO <span class="logo-highlight">SLOTH</span></span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item active"><a href="games.html">Games</a></li>
+          <li class="nav-item"><a href="studio.html">Studio</a></li>
+          <li class="nav-item"><a href="b2b.html">B2B</a></li>
+          <li class="nav-item"><a href="blog.html">Blog</a></li>
+          <li class="nav-item"><a href="press.html">Press</a></li>
+          <li class="nav-item"><a href="careers.html">Careers</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container" style="padding-top: 140px; padding-bottom: 60px;">
+    
+    <!-- Hero Header -->
+    <section class="scroll-reveal" style="text-align: center; margin-bottom: 4rem;">
+      <span class="badge" style="margin: 0 auto 1rem;">Portfolio</span>
+      <h1>Our Games</h1>
+      <p style="font-size: 1.2rem; max-width: 600px; margin: 1rem auto 0;">
+        Explore the growing collection of games crafted by Nitro Sloth Games. Built with care, designed for replayability.
+      </p>
+    </section>
+
+    <!-- Released Games -->
+    <section style="margin-bottom: 6rem;">
+      <h2 class="scroll-reveal">Released Games</h2>
+      
+      <div class="glass-panel game-featured-grid scroll-reveal">
+        <div class="game-gallery">
+          <img src="assets/crayon_sorter_featured.png" alt="Crayon Sorter Featured Art" class="featured-image">
+          <img src="assets/crayon_sorter_screenshot1.png" alt="Crayon Sorter Gameplay Screenshot 1">
+          <img src="assets/crayon_sorter_screenshot2.png" alt="Crayon Sorter Gameplay Screenshot 2">
+        </div>
+        <div class="game-details">
+          <span class="badge">Puzzle / Arcade</span>
+          <h3>Crayon Sorter</h3>
+          <p>
+            Organize colorful crayons, solve satisfying sorting puzzles, and master increasingly tricky, handcrafted levels. Perfect for short, relaxing gameplay sessions that keep your mind sharp.
+          </p>
+          <ul class="game-features">
+            <li>100+ handcrafted color-matching levels</li>
+            <li>Calming soundtrack & satisfying visual feedback</li>
+            <li>Quick play sessions designed for instant replayability</li>
+          </ul>
+          <div class="store-badges">
+            <a href="https://play.google.com" target="_blank" class="store-badge" id="games-page-crayon-sorter-android">
+              <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Games -->
+    <section style="margin-bottom: 6rem;">
+      <h2 class="scroll-reveal" style="margin-bottom: 3rem;">Upcoming Projects</h2>
+      
+      <div class="games-grid">
+        <!-- Upcoming Game 1 -->
+        <div class="glass-panel game-card scroll-reveal">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <img src="assets/logo.png" alt="Project Mascot" class="game-card-icon">
+            <span class="game-card-status">Pre-Production</span>
+          </div>
+          <h3>Project Jetpack Sloth</h3>
+          <p>
+            An action-packed choice-driven endless runner featuring our beloved mascot. Guide the jetpack-wearing sloth through a series of choice-heavy environments where timing and quick decision making are critical.
+          </p>
+          <button class="btn btn-secondary" style="width: 100%; margin-top: auto;" onclick="location.href='contact.html'">Notify Me on Launch</button>
+        </div>
+
+        <!-- Upcoming Game 2 -->
+        <div class="glass-panel game-card scroll-reveal">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <img src="assets/crayon_sorter_icon.png" alt="Educational Sort Icon" class="game-card-icon">
+            <span class="game-card-status">Concept Design</span>
+          </div>
+          <h3>Sloth Academy</h3>
+          <p>
+            An interactive educational physics puzzle game. Sort, drop, and construct machinery using standard physics components. Teaches physics and mathematical concepts through addictive hypercasual puzzles.
+          </p>
+          <button class="btn btn-secondary" style="width: 100%; margin-top: auto;" onclick="location.href='contact.html'">Get Beta Access</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Development Philosophy -->
+    <section class="glass-panel scroll-reveal" style="padding: 3rem; margin-bottom: 6rem; text-align: center;">
+      <h3>Our Development Philosophy</h3>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2rem; text-align: left;">
+        <div>
+          <h4 style="color: var(--accent-orange); margin-bottom: 0.5rem;">1. Quality & Polish</h4>
+          <p style="font-size: 0.9rem;">We believe in polish before promotion. We refine gameplay loops, visual assets, and UI feedback until every interaction feels satisfying.</p>
+        </div>
+        <div>
+          <h4 style="color: var(--accent-orange); margin-bottom: 0.5rem;">2. High Accessibility</h4>
+          <p style="font-size: 0.9rem;">Games should be easy to pick up but rewarding to master. We design with clear visual guides, customizable controls, and intuitive mechanics.</p>
+        </div>
+        <div>
+          <h4 style="color: var(--accent-orange); margin-bottom: 0.5rem;">3. Memorable Loops</h4>
+          <p style="font-size: 0.9rem;">We focus on crafting gameplay loops that players want to replay for hours, providing rich value regardless of the platform.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section>
+      <h2 class="scroll-reveal">Frequently Asked Questions</h2>
+      <div class="faq-list scroll-reveal">
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>Where can I download Nitro Sloth Games?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <p class="faq-answer">
+            Our games are primarily published on the Google Play Store for Android. Simply click on the store badge on the respective game page to redirect to the official app listing.
+          </p>
+        </div>
+
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>Which platforms are supported?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <p class="faq-answer">
+            Currently, our live titles like Crayon Sorter support Android mobile devices. We plan to expand future titles (such as Project Jetpack Sloth) to both iOS and Web browsers.
+          </p>
+        </div>
+
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>How often are new games released?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <p class="faq-answer">
+            Under our tagline "Sloth energy, Nitro speed," we maintain detailed planning cycles. We release polished hypercasual games every 4 to 6 months, while keeping our narrative and educational concepts in active parallel testing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-title">NITRO <span>SLOTH</span></div>
+        <p>Independent mobile game studio focused on polished mechanics, rich narrative, and unforgettable player experiences. Sloth energy, Nitro speed.</p>
+        <p>Email: <a href="mailto:nitrosloth.hq@gmail.com">nitrosloth.hq@gmail.com</a></p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Our Games</a></li>
+          <li><a href="studio.html">Studio & Philosophy</a></li>
+          <li><a href="b2b.html">B2B Interactive</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="blog.html">Devlogs & News</a></li>
+          <li><a href="press.html">Press Kit</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="support.html">Help & FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="app-ads.txt" target="_blank">app-ads.txt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Nitro Sloth Games. All rights reserved.</p>
+      <p>Nitro Sloth Games is a branded venture of <span class="klyph-tag">Klyph OPC</span>. Chennai, Tamil Nadu, India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help & Support - Nitro Sloth Games</title>
+  <meta name="description" content="Find solutions to common issues, contact game support, or submit feedback for Crayon Sorter and other Nitro Sloth Games.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo.png" alt="Nitro Sloth Games Logo">
+        <span>NITRO <span class="logo-highlight">SLOTH</span></span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="games.html">Games</a></li>
+          <li class="nav-item"><a href="studio.html">Studio</a></li>
+          <li class="nav-item"><a href="b2b.html">B2B</a></li>
+          <li class="nav-item"><a href="blog.html">Blog</a></li>
+          <li class="nav-item"><a href="press.html">Press</a></li>
+          <li class="nav-item"><a href="careers.html">Careers</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container" style="padding-top: 140px; padding-bottom: 60px;">
+    
+    <!-- Hero Header -->
+    <section class="scroll-reveal" style="text-align: center; margin-bottom: 3rem;">
+      <span class="badge" style="margin: 0 auto 1rem;">Help Desk</span>
+      <h1>Support Center</h1>
+      <p style="font-size: 1.2rem; max-width: 600px; margin: 1rem auto 0;">
+        Troubleshoot common issues, find game answers, or get in touch directly for help.
+      </p>
+    </section>
+
+    <!-- Support Methods Grid -->
+    <section style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-bottom: 5rem;" class="scroll-reveal">
+      <div class="glass-panel" style="padding: 2.5rem; text-align: center;">
+        <span style="font-size: 2.5rem;">📧</span>
+        <h4 style="margin-top: 1rem; margin-bottom: 0.5rem;">Email Support</h4>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">Direct help from our development team for bugs or loading issues.</p>
+        <a href="mailto:nitrosloth.hq@gmail.com" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Email Team</a>
+      </div>
+
+      <div class="glass-panel" style="padding: 2.5rem; text-align: center;">
+        <span style="font-size: 2.5rem;">🐛</span>
+        <h4 style="margin-top: 1rem; margin-bottom: 0.5rem;">Bug Reports</h4>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">Help us polish our games by submitting detailed bug reports or crash info.</p>
+        <a href="contact.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Report Bug</a>
+      </div>
+
+      <div class="glass-panel" style="padding: 2.5rem; text-align: center;">
+        <span style="font-size: 2.5rem;">💡</span>
+        <h4 style="margin-top: 1rem; margin-bottom: 0.5rem;">Feature Ideas</h4>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">Submit game ideas, level proposals, or visual asset suggestions.</p>
+        <a href="contact.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Send Ideas</a>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section style="margin-bottom: 5rem;">
+      <h2 class="scroll-reveal" style="margin-bottom: 2rem;">Common Questions</h2>
+      
+      <div class="faq-list scroll-reveal">
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>The game is crashing or showing a black screen. What should I do?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Please try the following standard Android diagnostic steps:</p>
+            <ul style="padding-left: 20px; margin-top: 0.5rem;">
+              <li>Restart your mobile device.</li>
+              <li>Clear the application cache (Settings > Apps > Crayon Sorter > Storage > Clear Cache).</li>
+              <li>Ensure your device OS version meets the minimum requirements listed on the Play Store page.</li>
+            </ul>
+            <p style="margin-top: 0.5rem;">If the crash persists, email us at <a href="mailto:nitrosloth.hq@gmail.com" style="color: var(--accent-orange);">nitrosloth.hq@gmail.com</a> with your phone brand and model.</p>
+          </div>
+        </div>
+
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>Are there in-app purchases in Nitro Sloth Games?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <p class="faq-answer">
+            Our current releases (like Crayon Sorter) do not contain paid in-app items. The game is free-to-play and supported by non-intrusive banner and interstitial advertisements integrated via AdMob.
+          </p>
+        </div>
+
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>Can I play Nitro Sloth Games offline?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <p class="faq-answer">
+            Yes! Crayon Sorter does not require an active internet connection to play. You can play all levels offline. However, loading advertisements (which help support the studio) or syncing Firebase analytics progress does require a network connection.
+          </p>
+        </div>
+
+        <div class="glass-panel faq-item">
+          <div class="faq-question">
+            <span>How can I request that my player data be deleted?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <p class="faq-answer">
+            We respect your privacy. Under our Firebase analytics framework, we only collect anonymous device configuration and gameplay events. If you wish to clear your local progress or remove anonymous logging IDs, simply uninstall the app or clear its App Data under Android settings. For inquiries, view our Privacy Policy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-title">NITRO <span>SLOTH</span></div>
+        <p>Independent mobile game studio focused on polished mechanics, rich narrative, and unforgettable player experiences. Sloth energy, Nitro speed.</p>
+        <p>Email: <a href="mailto:nitrosloth.hq@gmail.com">nitrosloth.hq@gmail.com</a></p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Our Games</a></li>
+          <li><a href="studio.html">Studio & Philosophy</a></li>
+          <li><a href="b2b.html">B2B Interactive</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="blog.html">Devlogs & News</a></li>
+          <li><a href="press.html">Press Kit</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="support.html">Help & FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="app-ads.txt" target="_blank">app-ads.txt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Nitro Sloth Games. All rights reserved.</p>
+      <p>Nitro Sloth Games is a branded venture of <span class="klyph-tag">Klyph OPC</span>. Chennai, Tamil Nadu, India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

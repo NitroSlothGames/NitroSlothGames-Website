@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Blog & Devlogs - Nitro Sloth Games</title>
+  <meta name="description" content="Read developer updates, post-mortems, game design philosophy, and news announcements from the team at Nitro Sloth Games.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo.png" alt="Nitro Sloth Games Logo">
+        <span>NITRO <span class="logo-highlight">SLOTH</span></span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="games.html">Games</a></li>
+          <li class="nav-item"><a href="studio.html">Studio</a></li>
+          <li class="nav-item"><a href="b2b.html">B2B</a></li>
+          <li class="nav-item active"><a href="blog.html">Blog</a></li>
+          <li class="nav-item"><a href="press.html">Press</a></li>
+          <li class="nav-item"><a href="careers.html">Careers</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container" style="padding-top: 140px; padding-bottom: 60px;">
+    
+    <!-- Hero Header -->
+    <section class="scroll-reveal" style="text-align: center; margin-bottom: 4rem;">
+      <span class="badge" style="margin: 0 auto 1rem;">Developer Chronicles</span>
+      <h1>Studio Blog</h1>
+      <p style="font-size: 1.2rem; max-width: 600px; margin: 1rem auto 0;">
+        Follow our developer logs, engineering challenges, creative updates, and studio milestones.
+      </p>
+    </section>
+
+    <!-- Devlogs Grid -->
+    <section class="news-grid" style="grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 3rem; margin-bottom: 5rem;">
+      <!-- Post 1 -->
+      <article class="glass-panel news-card scroll-reveal">
+        <div class="news-img" style="background-image: url('assets/crayon_sorter_featured.png');"></div>
+        <div class="news-content">
+          <span class="news-meta">July 8, 2026 • Game Launch</span>
+          <h3>Crayon Sorter Globally Released on Google Play</h3>
+          <p>
+            After rigorous beta tests and level solver integrations, Crayon Sorter is live! Read about how we generated 100 balanced levels and setup our AdMob framework.
+          </p>
+          <a href="#" class="news-link" onclick="alert('Full post coming soon! Stay tuned.')">Read Post →</a>
+        </div>
+      </article>
+
+      <!-- Post 2 -->
+      <article class="glass-panel news-card scroll-reveal">
+        <div class="news-img" style="background-image: url('assets/logo.png'); background-size: 50% auto; background-repeat: no-repeat;"></div>
+        <div class="news-content">
+          <span class="news-meta">June 15, 2026 • Announcement</span>
+          <h3>Formalizing Our Venture Under Klyph OPC</h3>
+          <p>
+            To protect our IP and build commercial stability, we have entered a structural co-founder agreement under holding group Klyph OPC. This secures our pathway to B2B services.
+          </p>
+          <a href="#" class="news-link" onclick="alert('Full post coming soon! Stay tuned.')">Read Post →</a>
+        </div>
+      </article>
+
+      <!-- Post 3 -->
+      <article class="glass-panel news-card scroll-reveal">
+        <div class="news-img" style="background-image: url('assets/banner.png');"></div>
+        <div class="news-content">
+          <span class="news-meta">May 2, 2026 • Design</span>
+          <h3>Sloth Energy, Nitro Speed: Work Habits</h3>
+          <p>
+            How does an indie team ship high-quality products without burning out? We explore our structural approach to task scheduling, visual prototyping, and rapid Unity compilation.
+          </p>
+          <a href="#" class="news-link" onclick="alert('Full post coming soon! Stay tuned.')">Read Post →</a>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-title">NITRO <span>SLOTH</span></div>
+        <p>Independent mobile game studio focused on polished mechanics, rich narrative, and unforgettable player experiences. Sloth energy, Nitro speed.</p>
+        <p>Email: <a href="mailto:nitrosloth.hq@gmail.com">nitrosloth.hq@gmail.com</a></p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Our Games</a></li>
+          <li><a href="studio.html">Studio & Philosophy</a></li>
+          <li><a href="b2b.html">B2B Interactive</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="blog.html">Devlogs & News</a></li>
+          <li><a href="press.html">Press Kit</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="support.html">Help & FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="app-ads.txt" target="_blank">app-ads.txt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Nitro Sloth Games. All rights reserved.</p>
+      <p>Nitro Sloth Games is a branded venture of <span class="klyph-tag">Klyph OPC</span>. Chennai, Tamil Nadu, India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
